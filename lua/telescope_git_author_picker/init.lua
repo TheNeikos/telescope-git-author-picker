@@ -28,7 +28,7 @@ local function setup(opts)
 
     table.sort(authors)
     pickers.new(opts, {
-        prompt_title = "colors",
+        prompt_title = "Git Authors",
         finder = finders.new_table {
             results = authors,
         },
