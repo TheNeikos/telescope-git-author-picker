@@ -44,6 +44,4 @@ local function setup(opts)
     }):find()
 end
 
-return {
-    telescope_git_author_picker = setup
-}
+return setup

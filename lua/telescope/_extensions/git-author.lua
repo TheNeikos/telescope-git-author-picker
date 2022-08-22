@@ -4,6 +4,6 @@
 
 return require("telescope").register_extension {
     exports = {
-        git_author_picker = require("telescope-git-author-picker")
+        git_author = require("telescope_git_author_picker")
     }
 }
